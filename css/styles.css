@@ -1,0 +1,8 @@
+:root {
+  --dark-color-400: hsl(210, 11%, 15%);
+  --light-color-100: hsl(0, 0%, 100%);
+  --light-color-400: hsl(28, 100%, 92%);
+  --primary-color-400: hsl(28, 100%, 58%);
+  --primary-color-700: hsl(28, 100%, 49%);
+  --secondary-color-400: hsl(222, 56%, 59%);
+}
