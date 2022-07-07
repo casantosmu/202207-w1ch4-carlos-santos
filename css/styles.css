@@ -4,6 +4,7 @@
   --light-color-400: hsl(28, 100%, 92%);
   --primary-color-400: hsl(28, 100%, 58%);
   --primary-color-700: hsl(28, 100%, 49%);
+  --primary-color-900: hsl(28, 100%, 43%);
   --secondary-color-400: hsl(222, 56%, 59%);
 }
 
@@ -41,4 +42,20 @@ body {
 
 .header__nav-item--accent {
   font-weight: 700;
+}
+
+.shoppin-list-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color-700);
+  padding: 1.5rem 1rem;
+  border-bottom: 2px solid var(--primary-color-900);
+}
+
+.shoppin-list-navbar__info {
+  font-size: 2rem;
+}
+
+.shoppin-list-navbar__icon {
+  font-size: 2.5rem;
 }
