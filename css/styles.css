@@ -6,3 +6,8 @@
   --primary-color-700: hsl(28, 100%, 49%);
   --secondary-color-400: hsl(222, 56%, 59%);
 }
+
+body {
+  color: var(--dark-color-400);
+  background-color: var(--primary-color-400);
+}
