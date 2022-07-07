@@ -16,4 +16,29 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color-400);
+  padding: 2rem 1rem;
+}
+
+.header__title {
+  margin: 0;
+  font-weight: 500;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav-item {
+  font-size: 1.2rem;
+}
+
+.header__nav-item--accent {
+  font-weight: 700;
 }
