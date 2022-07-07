@@ -29,6 +29,48 @@
         <i class="fa-solid fa-circle-plus shoppin-list-navbar__icon"></i>
         <span class="shoppin-list-navbar__info">2/3 comprados</span>
       </header>
+      <section class="shopping">
+        <ol class="shopping__list">
+          <li class="shopping__list-item">
+            <div class="shopping__item-wrapper">
+              <input id="pan" type="checkbox" class="shopping__checkbox" />
+              <label
+                for="pan"
+                class="shopping__product shopping__product--purchased"
+                >Pan</label
+              >
+            </div>
+            <div class="shopping__item-wrapper">
+              <span class="shopping__price">0.75</span>
+              <i class="fa-solid fa-xmark shopping__delete"></i>
+            </div>
+          </li>
+          <li class="shopping__list-item">
+            <div class="shopping__item-wrapper">
+              <input id="azucar" type="checkbox" class="shopping__checkbox" />
+              <label for="azucar" class="shopping__product">Azúcar</label>
+            </div>
+            <div class="shopping__item-wrapper">
+              <i class="fa-solid fa-xmark shopping__delete"></i>
+            </div>
+          </li>
+          <li class="shopping__list-item">
+            <div class="shopping__item-wrapper">
+              <input id="leche" type="checkbox" class="shopping__checkbox" />
+              <label
+                for="leche"
+                class="shopping__product shopping__product--purchased"
+                >Leche</label
+              >
+            </div>
+            <div class="shopping__item-wrapper">
+              <span class="shopping__price">1.20€</span>
+              <i class="fa-solid fa-xmark shopping__delete"></i>
+            </div>
+          </li>
+        </ol>
+        <span class="shopping__total-cost">1.95€</span>
+      </section>
     </main>
   </body>
 </html>
