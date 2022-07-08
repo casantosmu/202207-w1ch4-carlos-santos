@@ -110,3 +110,7 @@ body {
   justify-content: end;
   font-size: 2rem;
 }
+
+.shopping__link {
+  color: inherit;
+}
