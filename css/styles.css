@@ -78,6 +78,15 @@ body {
   justify-content: space-between;
 }
 
+.shopping__list-item:hover {
+  background-color: var(--primary-color-900);
+  color: var(--light-color-100);
+}
+
+.shopping__list-item:hover .shopping__product--purchased {
+  color: var(--light-color-100);
+}
+
 .shopping__item-wrapper {
   display: flex;
   align-items: center;
@@ -113,4 +122,8 @@ body {
 
 .shopping__link {
   color: inherit;
+}
+
+.shopping__link:hover {
+  color: var(--light-color-100);
 }
