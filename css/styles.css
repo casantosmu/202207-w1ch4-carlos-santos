@@ -19,6 +19,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   background-color: var(--secondary-color-400);
   padding: 2rem 1rem;
@@ -58,4 +59,54 @@ body {
 
 .shoppin-list-navbar__icon {
   font-size: 2.5rem;
+}
+
+.shopping {
+  padding: 1.5rem 1rem;
+}
+
+.shopping__list {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--light-color-100);
+}
+
+.shopping__list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping__item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.shopping__checkbox {
+  margin-right: 1rem;
+  transform: scale(2);
+}
+
+.shopping__product {
+  font-size: 1.7rem;
+}
+
+.shopping__product--purchased {
+  text-decoration: line-through;
+}
+
+.shopping__price {
+  margin-right: 2rem;
+  font-size: 1.7rem;
+}
+
+.shopping__delete {
+  font-size: 2.5rem;
+}
+
+.shopping__total-cost {
+  display: flex;
+  justify-content: end;
+  font-size: 2rem;
 }
