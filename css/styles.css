@@ -140,3 +140,26 @@ body {
 .shopping__link {
   color: inherit;
 }
+
+.edit-product__heading {
+  padding: 0 1rem;
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+}
+
+.edit-product {
+  width: 50%;
+  padding: 0 1rem;
+}
+
+.edit-product__label {
+  display: block;
+  padding: 0.7rem 0;
+  font-size: 1.2rem;
+}
+
+.edit-product__txt-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+}
