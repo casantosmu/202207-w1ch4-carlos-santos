@@ -45,7 +45,7 @@ body {
   font-weight: 700;
 }
 
-.shoppin-list-navbar {
+.shopping-navbar {
   display: flex;
   justify-content: space-between;
   background-color: var(--primary-color-700);
@@ -53,12 +53,20 @@ body {
   border-bottom: 2px solid var(--primary-color-900);
 }
 
-.shoppin-list-navbar__info {
+.shopping-navbar__info {
   font-size: 2rem;
 }
 
-.shoppin-list-navbar__icon {
+.shopping-navbar__icon {
   font-size: 2.5rem;
+}
+
+.shopping-navbar__link {
+  color: inherit;
+}
+
+.shopping-navbar__link:hover {
+  color: var(--light-color-100);
 }
 
 .shopping {
@@ -122,8 +130,4 @@ body {
 
 .shopping__link {
   color: inherit;
-}
-
-.shopping__link:hover {
-  color: var(--light-color-100);
 }
