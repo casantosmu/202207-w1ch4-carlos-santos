@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de la compra - Editar producto</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Lista de la compra</h1>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#" class="header__link">Principal</a>
+          </li>
+          <li class="header__nav-item header__nav-item--accent">
+            <a href="#" class="header__link">Lista</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__link">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <header class="shopping-navbar">
+        <a href="#" class="shopping-navbar__link"
+          ><i class="fa-solid fa-circle-plus shopping-navbar__icon"></i
+        ></a>
+        <span class="shopping-navbar__info">2/3 comprados</span>
+      </header>
+      <h2 class=edit-product__heading">Editar producto</h2>
+      <form class="edit-product">
+        <label for="name" class="edit-product__label">Nombre:</label>
+        <input id="name" type="text" class="edit-product__txt-input"/>
+        <label for="price" class="edit-product__label">Price:</label>
+        <input id="price" type="text" class="edit-product__txt-input"/>
+        <input type="submit" value="Modificar" class="button button--secondary"/>
+      </form>
+    </main>
+  </body>
+</html>
